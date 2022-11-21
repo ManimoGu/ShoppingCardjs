@@ -22,19 +22,21 @@ Myct[i].textContent = '0'
 }
 
 
-
+// Parcourir la liste des button plus et button moin et ajouter l evenement click
 for(j=0;j < Mybt.length; j++){
 
+  // Ajouter l evenement click
   Mybt[j].addEventListener('click', function(){
      
    var par = this.parentNode
    var Mycount = par.querySelector('.count')
  
-   
+  // incrementer la quntite
    var ct = parseInt(Mycount.textContent)
     ct++
     Mycount.textContent = ct
-
+ 
+    // ajouter le prix au total 
     var part = par.parentNode
     var prix = part.querySelector('.price')
    
