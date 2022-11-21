@@ -1,0 +1,75 @@
+
+.prod{
+
+    width : 100px;
+    height: 100px;
+    margin-right: 20px;
+
+}
+
+
+.product{
+  
+    display: flex;
+    width : 95%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px 10px 20px 10px;
+   
+
+}
+
+main{
+
+
+    height: 1000px;
+    margin-left: 20px;
+    margin-top: 100px;
+    
+    
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    width : 250px;
+}
+body{
+
+    background-color: rgb(240, 240, 240);
+}
+
+.total{
+
+    display : flex;
+    width : 95%;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.Montant{
+
+font-size    : 20px;
+
+}
+
+.fas.fa-trash-alt{
+ 
+    margin-right: 50px;
+
+}
+
+.far.fa-heart{
+  
+    width : 100px;
+    height : 100px;
+
+
+}
